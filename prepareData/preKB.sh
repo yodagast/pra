@@ -6,7 +6,7 @@ if [ $# != 1 ] ; then
    exit 1
 fi
 file=$1
-pwd='/home/kdeapp/KBCompletion'
+pwd=`pwd`
 cd $pwd;
 if [ ! -d "$pwd/relation" ]; then
   mkdir relation
