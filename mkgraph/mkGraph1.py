@@ -33,6 +33,17 @@ def mkRandomTriple(file):
     train.to_csv(string + "/train.tsv", sep="\t", index=False, header=False)
     test.to_csv(string + "/test.tsv", sep="\t", index=False, header=False)
 
+def geneNeg1(df):
+    negCnt = 2
+    res = pd.DataFrame()
+    for index, data in df.iterrows():
+        h = data['source']
+        t = data['target']
+        falseRow = fact.sample(n=negCnt, replace=False)
+        #falseRow.loc[0:negCnt/2 , ['source']] = h
+        falseRow.loc[0:negCnt, ['target']] = t
+        res = res.append([data.to_frame().T, falseRow], ignore_index=True)
+    return res.drop_duplicates()
 
 def geneNeg1(df):
     negCnt = 2
