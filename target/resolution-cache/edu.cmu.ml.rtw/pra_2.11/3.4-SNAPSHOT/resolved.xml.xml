@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="edu.cmu.ml.rtw"
+		module="pra_2.11"
+		revision="3.4-SNAPSHOT"
+		status="integration"
+		publication="20180104175459"
+	>
+		<license name="GPL-3.0" url="http://www.opensource.org/licenses/GPL-3.0" />
+		<description homepage="http://matt-gardner.github.io/pra">
+		pra
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="public" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+		<conf name="jacoco" visibility="private" description="" extends="test"/>
+	</configurations>
+	<publications>
+		<artifact name="pra_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="pra_2.11" type="jar" ext="jar" conf="compile"/>
+		<artifact name="pra_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		<artifact name="pra_2.11" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.0.1" conf="provided->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.0.1" conf="provided->default(compile)"/>
+		<dependency org="com.google.guava" name="guava" rev="17.0" conf="compile->default(compile)"/>
+		<dependency org="log4j" name="log4j" rev="1.2.16" conf="compile->default(compile)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.4" conf="compile->default(compile)"/>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.9" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.2.11" conf="compile->default(compile)"/>
+		<dependency org="edu.cmu.ml.rtw" name="matt-util_2.11" rev="2.2" conf="compile->default(compile)"/>
+		<dependency org="net.sf.trove4j" name="trove4j" rev="2.0.2" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze_2.11" rev="0.10" conf="compile->default(compile)"/>
+		<dependency org="org.scalanlp" name="breeze-natives_2.11" rev="0.10" conf="compile->default(compile)"/>
+		<dependency org="cc.mallet" name="mallet" rev="2.0.7" conf="compile->default(compile)"/>
+		<dependency org="org.graphchi" name="graphchi-java_2.11" rev="0.2.2" conf="compile->default(compile)"/>
+		<dependency org="com.novocode" name="junit-interface" rev="0.11" conf="compile->default(compile)"/>
+		<dependency org="org.scalacheck" name="scalacheck_2.11" rev="1.11.4" conf="test->default(compile)"/>
+		<dependency org="org.scalatest" name="scalatest_2.11" rev="2.2.1" conf="test->default(compile)"/>
+		<dependency org="org.jacoco" name="org.jacoco.agent" rev="0.7.1.201405082137" conf="jacoco->default(compile)">
+			<artifact name="org.jacoco.agent" type="jar" ext="jar" conf="*"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

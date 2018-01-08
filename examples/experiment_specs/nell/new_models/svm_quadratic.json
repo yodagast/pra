@@ -1,0 +1,21 @@
+load new_feature_experiment_base
+{
+  "split": "yagoSplit",
+  "operation": {
+    "features": {
+      "type": "subgraphs",
+      "path finder": {
+        "type": "BfsPathFinder",
+        "number of steps": 2
+      },
+      "feature extractors": [
+        "PraFeatureExtractor"
+        ],
+      "include bias": false
+    },
+    "learning": {
+      "type": "svm",
+      "kernel": "quadratic"
+    }
+  }
+}
