@@ -15,7 +15,7 @@ del fact['relation']
 fact['class']=-1
    
 def mkRandomTriple(file):
-    relation=pd.read_csv(graph+"relation/"+file,header=-1,sep='\t',names=['source','target'])
+    relation=pd.read_csv(graph+"relations/"+file,header=-1,sep='\t',names=['source','target'])
     relation["class"]=1
     train,test=train_test_split(relation,test_size=0.2)
     string=graph+"splits/"+file.replace(".tsv","")

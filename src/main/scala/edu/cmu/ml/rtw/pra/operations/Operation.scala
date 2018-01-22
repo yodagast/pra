@@ -102,7 +102,7 @@ class TrainAndTest[T <: Instance](
     val testingData = split.getTestingData(relation, graph)
     val testMatrix = generator.createTestMatrix(relation,testingData)
 
-
+    /*
     var max=0
     for(i<- 0 until  trainingMatrix.size()){
       val mr=trainingMatrix.getRow(i)
@@ -111,8 +111,8 @@ class TrainAndTest[T <: Instance](
       }
     }
     val attr=new AttributeFile
-
-    //outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
+    */
+    outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
 
     // Then we train a model.
     /*
@@ -124,12 +124,12 @@ class TrainAndTest[T <: Instance](
    model.train(trainingMatrix1, trainingData, featureNames1)
    val testMatrix1= attr.mergeMatrix(attr.loadSparseMatrix(relation,false,max+1),testMatrix)
   */
-   val baseDir="/home/kdeapp/KBCompletion/Data/matrix_sfe/";
-   AttributeFile.makeDir(baseDir+relation)
+   //val baseDir="/home/kdeapp/KBCompletion/Data/matrix_sfe/";
+   //AttributeFile.makeDir(baseDir+relation)
     //AttributeFile.writePathTypes(relation,"trainPathTypes.txt",featureNames,trainingMatrix)
     //AttributeFile.writePathTypes(relation,"testLPathTypes.txt",featureNames,testMatrix)
-   AttributeFile.writelibsvm(relation,"trainLibsvm.txt",featureNames,trainingMatrix)
-   AttributeFile.writelibsvm(relation,"testLibsvm.txt",featureNames,testMatrix);
+   //AttributeFile.writelibsvm(relation,"trainLibsvm.txt",featureNames,trainingMatrix)
+   //AttributeFile.writelibsvm(relation,"testLibsvm.txt",featureNames,testMatrix);
    //write features to features.csv
     // AttributeFile.writeAlphabet(relation,featureNames)
 
@@ -333,7 +333,8 @@ class SgdTrainAndTest[T <: Instance](
       case _ => Seq()
     }).toList.asJava)
     outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
-    //val baseDir="/home/kde/KBCompletion/Data/matrix/";
+    /*
+    val baseDir="/home/kde/KBCompletion/Data/matrix/";
     //AttributeFile.makeDir(baseDir+relation);
     //AttributeFile.writeMatirx(relation,"training.csv",generator.getFeatureNames(),trainingMatrix)
     //AttributeFile.writeAlphabet(relation,generator.getFeatureNames())
@@ -343,6 +344,7 @@ class SgdTrainAndTest[T <: Instance](
       if(max<mr.featureTypes.toList.max)
         max=mr.featureTypes.toList.max
     }
+    */
     //val attr=new AttributeFile
     //val trainingMatrix1=attr.mergeMatrix(attr.loadSparseMatrix(relation,true,max),trainingMatrix)
     //val literalFeatures=attr.loadLiteralDict("yagoLiteralStat").asScala

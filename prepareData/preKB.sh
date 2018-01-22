@@ -36,7 +36,7 @@ wc -l ./graph/node_dict.tsv
 rm -f ./relation/*
 awk -F'\t' '{if(NR==1){name=$2}if(name != $2){name=$2} print $1"\t"$3 >>"relation/"name".tsv"}' $file
 rename 's/[<>]//g' ./relation/*
-rm -f $pwd"/graph/graph/graph_chi/edges.tsv"
+rm -f $pwd"/graph/graph_chi/edges.tsv"
 python mkGraph.py $pwd
 
 if [ ! -d "$pwd/splits" ]; then

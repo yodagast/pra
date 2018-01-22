@@ -4,7 +4,7 @@
 		module="pra_2.11"
 		revision="3.4-SNAPSHOT"
 		status="integration"
-		publication="20180104175459"
+		publication="20180112102631"
 	>
 		<license name="GPL-3.0" url="http://www.opensource.org/licenses/GPL-3.0" />
 		<description homepage="http://matt-gardner.github.io/pra">

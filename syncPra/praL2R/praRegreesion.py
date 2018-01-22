@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import roc_auc_score
-from fastFM import als
 from sklearn.datasets import load_svmlight_files
 from sklearn.linear_model import LogisticRegression, SGDRegressor,SGDClassifier
 

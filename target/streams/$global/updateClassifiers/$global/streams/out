@@ -12,7 +12,7 @@
 [debug] == resolving dependencies for edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT [compile]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2a426d97
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2fc011e7
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7
 [debug] 	found org.scala-lang#scala-library;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-library;2.11.7
@@ -21,7 +21,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.google.guava#guava;17.0 [compile->default(compile)]
 [info] Resolving com.google.guava#guava;17.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@8699892
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18868d9e
 [debug] sbt-chain: module revision found in cache: com.google.guava#guava;17.0
 [debug] 	found com.google.guava#guava;17.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.google.guava#guava;17.0 [compile->runtime]
@@ -29,7 +29,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.google.guava#guava;17.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->log4j#log4j;1.2.16 [compile->default(compile)]
 [info] Resolving log4j#log4j;1.2.16 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38ca7b1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1bc268c
 [debug] sbt-chain: module revision found in cache: log4j#log4j;1.2.16
 [debug] 	found log4j#log4j;1.2.16 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->log4j#log4j;1.2.16 [compile->runtime]
@@ -37,7 +37,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->log4j#log4j;1.2.16 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)]
 [info] Resolving commons-io#commons-io;2.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c2b642d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52a6b067
 [debug] sbt-chain: module revision found in cache: commons-io#commons-io;2.4
 [debug] 	found commons-io#commons-io;2.4 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime]
@@ -45,7 +45,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-io#commons-io;2.4 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-compress;1.9 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-compress;1.9 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ada7bcc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ee1e07d
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-compress;1.9
 [debug] 	found org.apache.commons#commons-compress;1.9 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-compress;1.9 [compile->runtime]
@@ -53,7 +53,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-compress;1.9 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-native_2.11;3.2.11 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-native_2.11;3.2.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@134e51ab
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c629f89
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-native_2.11;3.2.11
 [debug] 	found org.json4s#json4s-native_2.11;3.2.11 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-native_2.11;3.2.11 [compile->runtime]
@@ -61,7 +61,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-native_2.11;3.2.11 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-core_2.11;3.2.11 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-core_2.11;3.2.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@494be5a4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47c7947b
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-core_2.11;3.2.11
 [debug] 	found org.json4s#json4s-core_2.11;3.2.11 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-core_2.11;3.2.11 [compile->runtime]
@@ -69,7 +69,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-core_2.11;3.2.11 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-ast_2.11;3.2.11 [compile->default(compile)]
 [info] Resolving org.json4s#json4s-ast_2.11;3.2.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66cc4045
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f448371
 [debug] sbt-chain: module revision found in cache: org.json4s#json4s-ast_2.11;3.2.11
 [debug] 	found org.json4s#json4s-ast_2.11;3.2.11 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-ast_2.11;3.2.11 [compile->runtime]
@@ -77,7 +77,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.json4s#json4s-ast_2.11;3.2.11 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer;2.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@47ded2d9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7552e162
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer;2.6
 [debug] 	found com.thoughtworks.paranamer#paranamer;2.6 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->runtime]
@@ -85,7 +85,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer;2.6 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scalap;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scalap;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30599e4d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a784e6c
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scalap;2.11.0
 [debug] 	found org.scala-lang#scalap;2.11.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scalap;2.11.0 [compile->runtime]
@@ -93,7 +93,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scalap;2.11.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-compiler;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@237029ca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a771a4b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.11.0
 [debug] 	found org.scala-lang#scala-compiler;2.11.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [compile->runtime]
@@ -101,7 +101,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-compiler;2.11.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-reflect;2.11.0 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72eeab94
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@522636df
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.0
 [debug] 	found org.scala-lang#scala-reflect;2.11.0 in sbt-chain
 [debug] 	[2.11.0] org.scala-lang#scala-reflect;2.11.0
@@ -110,7 +110,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-reflect;2.11.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@9689df5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e6e99f5
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->runtime]
@@ -118,7 +118,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f1a8d8d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17753aca
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
 [debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->runtime]
@@ -126,7 +126,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->edu.cmu.ml.rtw#matt-util_2.11;2.2 [compile->default(compile)]
 [info] Resolving edu.cmu.ml.rtw#matt-util_2.11;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@f50bcca
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d9066ac
 [debug] sbt-chain: module revision found in cache: edu.cmu.ml.rtw#matt-util_2.11;2.2
 [debug] 	found edu.cmu.ml.rtw#matt-util_2.11;2.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->edu.cmu.ml.rtw#matt-util_2.11;2.2 [compile->runtime]
@@ -134,7 +134,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->edu.cmu.ml.rtw#matt-util_2.11;2.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math3;3.6 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math3;3.6 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25cb6b8e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5e198fb1
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math3;3.6
 [debug] 	found org.apache.commons#commons-math3;3.6 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math3;3.6 [compile->runtime]
@@ -142,7 +142,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math3;3.6 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.trove4j#trove4j;2.0.2 [compile->default(compile)]
 [info] Resolving net.sf.trove4j#trove4j;2.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dcd4578
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@270cb8c5
 [debug] sbt-chain: module revision found in cache: net.sf.trove4j#trove4j;2.0.2
 [debug] 	found net.sf.trove4j#trove4j;2.0.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.trove4j#trove4j;2.0.2 [compile->runtime]
@@ -150,7 +150,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.trove4j#trove4j;2.0.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->junit#junit;4.12 [compile->default(compile)]
 [info] Resolving junit#junit;4.12 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a72f81a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5bfd2149
 [debug] sbt-chain: module revision found in cache: junit#junit;4.12
 [debug] 	found junit#junit;4.12 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->junit#junit;4.12 [compile->runtime]
@@ -158,7 +158,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->junit#junit;4.12 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [compile->default(compile)]
 [info] Resolving org.hamcrest#hamcrest-core;1.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@22c0a9ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@701b937a
 [debug] sbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.3
 [debug] 	found org.hamcrest#hamcrest-core;1.3 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [compile->runtime]
@@ -166,7 +166,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.hamcrest#hamcrest-core;1.3 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze_2.11;0.10 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze_2.11;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@10cb377e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@62808e7e
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze_2.11;0.10
 [debug] 	found org.scalanlp#breeze_2.11;0.10 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze_2.11;0.10 [compile->runtime]
@@ -174,7 +174,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze_2.11;0.10 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-macros_2.11;0.3.1 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-macros_2.11;0.3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4c4c863d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ed840aa
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-macros_2.11;0.3.1
 [debug] 	found org.scalanlp#breeze-macros_2.11;0.3.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-macros_2.11;0.3.1 [compile->runtime]
@@ -182,7 +182,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-macros_2.11;0.3.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#core;1.1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6d1edb05
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44382023
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#core;1.1.2
 [debug] 	found com.github.fommil.netlib#core;1.1.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->runtime]
@@ -190,7 +190,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#core;1.1.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->default(compile)]
 [info] Resolving net.sf.opencsv#opencsv;2.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@188933b7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56529d6b
 [debug] sbt-chain: module revision found in cache: net.sf.opencsv#opencsv;2.3
 [debug] 	found net.sf.opencsv#opencsv;2.3 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->runtime]
@@ -198,7 +198,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.opencsv#opencsv;2.3 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->default(compile)]
 [info] Resolving com.github.rwl#jtransforms;2.4.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1c2d4bae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3008aa3c
 [debug] sbt-chain: module revision found in cache: com.github.rwl#jtransforms;2.4.0
 [debug] 	found com.github.rwl#jtransforms;2.4.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->runtime]
@@ -206,7 +206,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.rwl#jtransforms;2.4.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1cd27b04
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b087ba5
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire_2.11;0.7.4
 [debug] 	found org.spire-math#spire_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire_2.11;0.7.4 [compile->runtime]
@@ -214,7 +214,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire-macros_2.11;0.7.4 [compile->default(compile)]
 [info] Resolving org.spire-math#spire-macros_2.11;0.7.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6ed5eb79
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1b3789dd
 [debug] sbt-chain: module revision found in cache: org.spire-math#spire-macros_2.11;0.7.4
 [debug] 	found org.spire-math#spire-macros_2.11;0.7.4 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire-macros_2.11;0.7.4 [compile->runtime]
@@ -222,7 +222,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.spire-math#spire-macros_2.11;0.7.4 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->default(compile)]
 [info] Resolving org.slf4j#slf4j-api;1.7.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1359e250
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6abdabd1
 [debug] sbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.5
 [debug] 	found org.slf4j#slf4j-api;1.7.5 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->runtime]
@@ -230,7 +230,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.slf4j#slf4j-api;1.7.5 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-natives_2.11;0.10 [compile->default(compile)]
 [info] Resolving org.scalanlp#breeze-natives_2.11;0.10 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@575f8046
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@16986ade
 [debug] sbt-chain: module revision found in cache: org.scalanlp#breeze-natives_2.11;0.10
 [debug] 	found org.scalanlp#breeze-natives_2.11;0.10 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-natives_2.11;0.10 [compile->runtime]
@@ -238,7 +238,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalanlp#breeze-natives_2.11;0.10 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72697ed4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@73e85a6d
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->runtime]
@@ -246,7 +246,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_ref-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_ref-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4e66b0cc
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38fb5990
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_ref-java;1.1
 [debug] 	found com.github.fommil.netlib#native_ref-java;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_ref-java;1.1 [compile->runtime]
@@ -254,7 +254,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_ref-java;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil#jniloader;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil#jniloader;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2bf31ff3
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b850825
 [debug] sbt-chain: module revision found in cache: com.github.fommil#jniloader;1.1
 [debug] 	found com.github.fommil#jniloader;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil#jniloader;1.1 [compile->runtime]
@@ -262,7 +262,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil#jniloader;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3793be99
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31fa1d22
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->runtime]
@@ -270,7 +270,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ca4d60b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7a5e11c8
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->runtime]
@@ -278,7 +278,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e515140
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@367e8ef
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->runtime]
@@ -286,7 +286,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@51f59240
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@878f8ee
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-win-i686;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->runtime]
@@ -294,7 +294,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@13c18914
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17e64caa
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->runtime]
@@ -302,7 +302,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_ref-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7dbec951
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d6cad0d
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->runtime]
@@ -310,7 +310,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-osx-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_system-java;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#native_system-java;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@154e55c7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61ccec0e
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#native_system-java;1.1
 [debug] 	found com.github.fommil.netlib#native_system-java;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_system-java;1.1 [compile->runtime]
@@ -318,7 +318,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#native_system-java;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3fd0a078
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@167670cc
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->runtime]
@@ -326,7 +326,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@15e7b5b9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6c958ff4
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-i686;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->runtime]
@@ -334,7 +334,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-i686;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6372c428
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f8458e6
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->runtime]
@@ -342,7 +342,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-linux-armhf;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@38b1e189
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@68a3862d
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->runtime]
@@ -350,7 +350,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-x86_64;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->default(compile)]
 [info] Resolving com.github.fommil.netlib#netlib-native_system-win-i686;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f6eb90d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35342f92
 [debug] sbt-chain: module revision found in cache: com.github.fommil.netlib#netlib-native_system-win-i686;1.1
 [debug] 	found com.github.fommil.netlib#netlib-native_system-win-i686;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->runtime]
@@ -358,7 +358,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.github.fommil.netlib#netlib-native_system-win-i686;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->cc.mallet#mallet;2.0.7 [compile->default(compile)]
 [info] Resolving cc.mallet#mallet;2.0.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@761b2159
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53ce0107
 [debug] sbt-chain: module revision found in cache: cc.mallet#mallet;2.0.7
 [debug] 	found cc.mallet#mallet;2.0.7 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->cc.mallet#mallet;2.0.7 [compile->runtime]
@@ -366,7 +366,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->cc.mallet#mallet;2.0.7 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.jwordnet#jwnl;1.4_rc3 [compile->default(compile)]
 [info] Resolving net.sf.jwordnet#jwnl;1.4_rc3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35f9776b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@59025ddb
 [debug] sbt-chain: module revision found in cache: net.sf.jwordnet#jwnl;1.4_rc3
 [debug] 	found net.sf.jwordnet#jwnl;1.4_rc3 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.jwordnet#jwnl;1.4_rc3 [compile->runtime]
@@ -374,7 +374,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.sf.jwordnet#jwnl;1.4_rc3 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->default(compile)]
 [info] Resolving commons-logging#commons-logging;1.1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@52f48863
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12e3917b
 [debug] sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 [debug] 	found commons-logging#commons-logging;1.1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->runtime]
@@ -382,7 +382,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-logging#commons-logging;1.1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.matrix-toolkits-java#mtj;0.9.14 [compile->default(compile)]
 [info] Resolving com.googlecode.matrix-toolkits-java#mtj;0.9.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b80d75c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69c7a114
 [debug] sbt-chain: module revision found in cache: com.googlecode.matrix-toolkits-java#mtj;0.9.14
 [debug] 	found com.googlecode.matrix-toolkits-java#mtj;0.9.14 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.matrix-toolkits-java#mtj;0.9.14 [compile->runtime]
@@ -390,7 +390,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.matrix-toolkits-java#mtj;0.9.14 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.netlib-java#netlib-java;0.9.3 [compile->default(compile)]
 [info] Resolving com.googlecode.netlib-java#netlib-java;0.9.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@53deeb29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@562c4ca8
 [debug] sbt-chain: module revision found in cache: com.googlecode.netlib-java#netlib-java;0.9.3
 [debug] 	found com.googlecode.netlib-java#netlib-java;0.9.3 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.netlib-java#netlib-java;0.9.3 [compile->runtime]
@@ -398,7 +398,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.googlecode.netlib-java#netlib-java;0.9.3 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.jdom#jdom;1.1 [compile->default(compile)]
 [info] Resolving org.jdom#jdom;1.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ee0a120
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@e217d03
 [debug] sbt-chain: module revision found in cache: org.jdom#jdom;1.1
 [debug] 	found org.jdom#jdom;1.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.jdom#jdom;1.1 [compile->runtime]
@@ -406,7 +406,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.jdom#jdom;1.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.graphchi#graphchi-java_2.11;0.2.2 [compile->default(compile)]
 [info] Resolving org.graphchi#graphchi-java_2.11;0.2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31c44233
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@18689fcc
 [debug] sbt-chain: module revision found in cache: org.graphchi#graphchi-java_2.11;0.2.2
 [debug] 	found org.graphchi#graphchi-java_2.11;0.2.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.graphchi#graphchi-java_2.11;0.2.2 [compile->runtime]
@@ -414,7 +414,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.graphchi#graphchi-java_2.11;0.2.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.yammer.metrics#metrics-core;2.2.0 [compile->default(compile)]
 [info] Resolving com.yammer.metrics#metrics-core;2.2.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46ecfee
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3dddd694
 [debug] sbt-chain: module revision found in cache: com.yammer.metrics#metrics-core;2.2.0
 [debug] 	found com.yammer.metrics#metrics-core;2.2.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.yammer.metrics#metrics-core;2.2.0 [compile->runtime]
@@ -422,7 +422,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.yammer.metrics#metrics-core;2.2.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.pig#pig;0.10.0 [compile->default(compile)]
 [info] Resolving org.apache.pig#pig;0.10.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3941ce83
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@203ccfdd
 [debug] sbt-chain: module revision found in cache: org.apache.pig#pig;0.10.0
 [debug] 	found org.apache.pig#pig;0.10.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.pig#pig;0.10.0 [compile->runtime]
@@ -430,7 +430,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.pig#pig;0.10.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-cli#commons-cli;1.2 [compile->default(compile)]
 [info] Resolving commons-cli#commons-cli;1.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@60316398
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e84532c
 [debug] sbt-chain: module revision found in cache: commons-cli#commons-cli;1.2
 [debug] 	found commons-cli#commons-cli;1.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-cli#commons-cli;1.2 [compile->runtime]
@@ -438,7 +438,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-cli#commons-cli;1.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)]
 [info] Resolving commons-httpclient#commons-httpclient;3.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4301b065
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c24f2d1
 [debug] sbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1
 [debug] 	found commons-httpclient#commons-httpclient;3.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->runtime]
@@ -446,7 +446,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-codec#commons-codec;1.4 [compile->default(compile)]
 [info] Resolving commons-codec#commons-codec;1.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2c6dd79f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7669a62a
 [debug] sbt-chain: module revision found in cache: commons-codec#commons-codec;1.4
 [debug] 	found commons-codec#commons-codec;1.4 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-codec#commons-codec;1.4 [compile->runtime]
@@ -454,7 +454,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-codec#commons-codec;1.4 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-net#commons-net;1.4.1 [compile->default(compile)]
 [info] Resolving commons-net#commons-net;1.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@ca1734f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ae27edf
 [debug] sbt-chain: module revision found in cache: commons-net#commons-net;1.4.1
 [debug] 	found commons-net#commons-net;1.4.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-net#commons-net;1.4.1 [compile->runtime]
@@ -462,7 +462,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-net#commons-net;1.4.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->oro#oro;2.0.8 [compile->default(compile)]
 [info] Resolving oro#oro;2.0.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@530ef6c0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@56fe9d8c
 [debug] sbt-chain: module revision found in cache: oro#oro;2.0.8
 [debug] 	found oro#oro;2.0.8 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->oro#oro;2.0.8 [compile->runtime]
@@ -470,7 +470,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->oro#oro;2.0.8 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty;6.1.26 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jetty;6.1.26 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7df9b8db
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@58e4e2d1
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty;6.1.26
 [debug] 	found org.mortbay.jetty#jetty;6.1.26 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty;6.1.26 [compile->runtime]
@@ -478,7 +478,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty;6.1.26 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty-util;6.1.26 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jetty-util;6.1.26 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2053349a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@721f14fa
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jetty-util;6.1.26
 [debug] 	found org.mortbay.jetty#jetty-util;6.1.26 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty-util;6.1.26 [compile->runtime]
@@ -486,7 +486,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jetty-util;6.1.26 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#servlet-api;2.5-20081211 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@46f1a51c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d9c61e5
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#servlet-api;2.5-20081211
 [debug] 	found org.mortbay.jetty#servlet-api;2.5-20081211 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->runtime]
@@ -494,7 +494,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api;2.5-20081211 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-api-2.1;6.1.14 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jsp-api-2.1;6.1.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ef579
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5cd74bf
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jsp-api-2.1;6.1.14
 [debug] 	found org.mortbay.jetty#jsp-api-2.1;6.1.14 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-api-2.1;6.1.14 [compile->runtime]
@@ -502,7 +502,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-api-2.1;6.1.14 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api-2.5;6.1.14 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#servlet-api-2.5;6.1.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4a9010d7
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@139311d7
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#servlet-api-2.5;6.1.14
 [debug] 	found org.mortbay.jetty#servlet-api-2.5;6.1.14 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api-2.5;6.1.14 [compile->runtime]
@@ -510,7 +510,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#servlet-api-2.5;6.1.14 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-2.1;6.1.14 [compile->default(compile)]
 [info] Resolving org.mortbay.jetty#jsp-2.1;6.1.14 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b51f2b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@689363d3
 [debug] sbt-chain: module revision found in cache: org.mortbay.jetty#jsp-2.1;6.1.14
 [debug] 	found org.mortbay.jetty#jsp-2.1;6.1.14 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-2.1;6.1.14 [compile->runtime]
@@ -518,7 +518,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.mortbay.jetty#jsp-2.1;6.1.14 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->ant#ant;1.6.5 [compile->default(compile)]
 [info] Resolving ant#ant;1.6.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c9bb8b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61a700a1
 [debug] sbt-chain: module revision found in cache: ant#ant;1.6.5
 [debug] 	found ant#ant;1.6.5 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->ant#ant;1.6.5 [compile->runtime]
@@ -526,7 +526,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->ant#ant;1.6.5 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-el#commons-el;1.0 [compile->default(compile)]
 [info] Resolving commons-el#commons-el;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d4ec36a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dea04
 [debug] sbt-chain: module revision found in cache: commons-el#commons-el;1.0
 [debug] 	found commons-el#commons-el;1.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-el#commons-el;1.0 [compile->runtime]
@@ -534,7 +534,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-el#commons-el;1.0 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->default(compile)]
 [info] Resolving net.java.dev.jets3t#jets3t;0.7.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1258fb90
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77210324
 [debug] sbt-chain: module revision found in cache: net.java.dev.jets3t#jets3t;0.7.1
 [debug] 	found net.java.dev.jets3t#jets3t;0.7.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->runtime]
@@ -542,7 +542,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->net.java.dev.jets3t#jets3t;0.7.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.hadoop#avro;1.3.2 [compile->default(compile)]
 [info] Resolving org.apache.hadoop#avro;1.3.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1e11b6c
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ca79dc9
 [debug] sbt-chain: module revision found in cache: org.apache.hadoop#avro;1.3.2
 [debug] 	found org.apache.hadoop#avro;1.3.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.hadoop#avro;1.3.2 [compile->runtime]
@@ -550,7 +550,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.hadoop#avro;1.3.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.4.2 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-mapper-asl;1.4.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79e3c0c2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f0918b
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-mapper-asl;1.4.2
 [debug] 	found org.codehaus.jackson#jackson-mapper-asl;1.4.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.4.2 [compile->runtime]
@@ -558,7 +558,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.4.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.4.2 [compile->default(compile)]
 [info] Resolving org.codehaus.jackson#jackson-core-asl;1.4.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@44bdca96
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@78e2b243
 [debug] sbt-chain: module revision found in cache: org.codehaus.jackson#jackson-core-asl;1.4.2
 [debug] 	found org.codehaus.jackson#jackson-core-asl;1.4.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.4.2 [compile->runtime]
@@ -566,7 +566,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.4.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-ant;2.2 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer-ant;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1ee5cd52
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2155e778
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer-ant;2.2
 [debug] 	found com.thoughtworks.paranamer#paranamer-ant;2.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-ant;2.2 [compile->runtime]
@@ -574,7 +574,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-ant;2.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-generator;2.2 [compile->default(compile)]
 [info] Resolving com.thoughtworks.paranamer#paranamer-generator;2.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@d00c4b8
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@77e4e0b1
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.paranamer#paranamer-generator;2.2
 [debug] 	found com.thoughtworks.paranamer#paranamer-generator;2.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-generator;2.2 [compile->runtime]
@@ -582,7 +582,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.paranamer#paranamer-generator;2.2 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.qdox#qdox;1.10.1 [compile->default(compile)]
 [info] Resolving com.thoughtworks.qdox#qdox;1.10.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b25559f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dfb2309
 [debug] sbt-chain: module revision found in cache: com.thoughtworks.qdox#qdox;1.10.1
 [debug] 	found com.thoughtworks.qdox#qdox;1.10.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.qdox#qdox;1.10.1 [compile->runtime]
@@ -590,7 +590,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.thoughtworks.qdox#qdox;1.10.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-lang#commons-lang;2.5 [compile->default(compile)]
 [info] Resolving commons-lang#commons-lang;2.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4d681e90
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4ea8a34c
 [debug] sbt-chain: module revision found in cache: commons-lang#commons-lang;2.5
 [debug] 	found commons-lang#commons-lang;2.5 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-lang#commons-lang;2.5 [compile->runtime]
@@ -598,7 +598,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->commons-lang#commons-lang;2.5 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->default(compile)]
 [info] Resolving org.apache.commons#commons-math;2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@342d229
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28adcaf3
 [debug] sbt-chain: module revision found in cache: org.apache.commons#commons-math;2.1
 [debug] 	found org.apache.commons#commons-math;2.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->runtime]
@@ -606,7 +606,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.apache.commons#commons-math;2.1 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.novocode#junit-interface;0.11 [compile->default(compile)]
 [info] Resolving com.novocode#junit-interface;0.11 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@79ddb0b5
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5de48975
 [debug] sbt-chain: module revision found in cache: com.novocode#junit-interface;0.11
 [debug] 	found com.novocode#junit-interface;0.11 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.novocode#junit-interface;0.11 [compile->runtime]
@@ -614,7 +614,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->com.novocode#junit-interface;0.11 [compile->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69e62dcd
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4dbd2874
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-sbt#test-interface;1.0 [compile->runtime]
@@ -2129,7 +2129,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-sbt#test-interface;1.0 [test->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.11.4 [test->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.11.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@69b30af6
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@35aa19d5
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.11.4
 [debug] 	found org.scalacheck#scalacheck_2.11;1.11.4 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.11.4 [test->runtime]
@@ -2137,7 +2137,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalacheck#scalacheck_2.11;1.11.4 [test->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.1 [test->default(compile)]
 [info] Resolving org.scalatest#scalatest_2.11;2.2.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14619ea2
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4881af09
 [debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.2.1
 [debug] 	found org.scalatest#scalatest_2.11;2.2.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.1 [test->runtime]
@@ -2145,7 +2145,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scalatest#scalatest_2.11;2.2.1 [test->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3ea22c08
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3bc5559b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.2
 [debug] 	found org.scala-lang#scala-reflect;2.11.2 in sbt-chain
 [debug] 	[2.11.2] org.scala-lang#scala-reflect;2.11.2
@@ -2154,7 +2154,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-reflect;2.11.2 [test->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->default(compile)]
 [info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4f377590
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@70bd3031
 [debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.2
 [debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.2 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.2 [test->runtime]
@@ -2168,7 +2168,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang.modules#scala-xml_2.11;1.0.1 [provided->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scoverage#scalac-scoverage-runtime_2.11;1.0.1 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-runtime_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@512c9da
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6f15a1d9
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-runtime_2.11;1.0.1
 [debug] 	found org.scoverage#scalac-scoverage-runtime_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scoverage#scalac-scoverage-runtime_2.11;1.0.1 [provided->runtime]
@@ -2185,7 +2185,7 @@
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scala-lang#scala-library;2.11.4 [provided->master]
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scoverage#scalac-scoverage-plugin_2.11;1.0.1 [provided->default(compile)]
 [info] Resolving org.scoverage#scalac-scoverage-plugin_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@721362e9
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@726e310
 [debug] sbt-chain: module revision found in cache: org.scoverage#scalac-scoverage-plugin_2.11;1.0.1
 [debug] 	found org.scoverage#scalac-scoverage-plugin_2.11;1.0.1 in sbt-chain
 [debug] == resolving dependencies edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT->org.scoverage#scalac-scoverage-plugin_2.11;1.0.1 [provided->runtime]
@@ -6385,7 +6385,7 @@
 [debug] 		tried /home/shell/.sbt/preloaded/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jars/netlib-native_ref-osx-x86_64.jar
 [debug] 		tried file:////home/shell/.sbt/preloaded/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
-[error] Server access Error: Connection timed out (Connection timed out) url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1.jar
 [warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-osx-x86_64;1.1!netlib-native_ref-osx-x86_64.jar:  (0ms)
 [warn] ==== local: tried
 [warn]   /home/shell/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-osx-x86_64/1.1/jars/netlib-native_ref-osx-x86_64.jar
@@ -6404,7 +6404,7 @@
 [debug] 		tried /home/shell/.sbt/preloaded/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/jars/netlib-native_ref-linux-x86_64.jar
 [debug] 		tried file:////home/shell/.sbt/preloaded/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [debug] 		tried https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
-[error] Server access Error: Connection timed out (Connection timed out) url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1.jar
 [warn] 	[FAILED     ] com.github.fommil.netlib#netlib-native_ref-linux-x86_64;1.1!netlib-native_ref-linux-x86_64.jar:  (0ms)
 [warn] ==== local: tried
 [warn]   /home/shell/.ivy2/local/com.github.fommil.netlib/netlib-native_ref-linux-x86_64/1.1/jars/netlib-native_ref-linux-x86_64.jar
@@ -6651,7 +6651,7 @@
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
 [debug] 	[NOT REQUIRED] org.jacoco#org.jacoco.agent;0.7.1.201405082137!org.jacoco.agent.jar(src)
-[debug] :: resolution report :: resolve 2500ms :: artifacts dl 268118ms
+[debug] :: resolution report :: resolve 7229ms :: artifacts dl 6443ms
 [warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [warn] 	::              FAILED DOWNLOADS            ::
 [warn] 	:: ^ see resolution messages for details  ^ ::
@@ -6683,4 +6683,4 @@
 [debug] 	report for edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT pom produced in /home/shell/Documents/Java/pra/target/resolution-cache/reports/edu.cmu.ml.rtw-pra$sources_2.11-pom.xml
 [debug] 	report for edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT scala-tool produced in /home/shell/Documents/Java/pra/target/resolution-cache/reports/edu.cmu.ml.rtw-pra$sources_2.11-scala-tool.xml
 [debug] 	report for edu.cmu.ml.rtw#pra$sources_2.11;3.4-SNAPSHOT jacoco produced in /home/shell/Documents/Java/pra/target/resolution-cache/reports/edu.cmu.ml.rtw-pra$sources_2.11-jacoco.xml
-[debug] 	resolve done (2500ms resolve - 268118ms download)
+[debug] 	resolve done (7229ms resolve - 6443ms download)

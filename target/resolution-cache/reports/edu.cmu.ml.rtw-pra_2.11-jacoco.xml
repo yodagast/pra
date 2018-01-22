@@ -7,7 +7,7 @@
 		revision="3.4-SNAPSHOT"
 		conf="jacoco"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180104175459"/>
+		date="20180112102631"/>
 	<dependencies>
 		<module organisation="org.jacoco" name="org.jacoco.agent">
 			<revision name="0.7.1.201405082137" status="release" pubdate="20140509195326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="91">

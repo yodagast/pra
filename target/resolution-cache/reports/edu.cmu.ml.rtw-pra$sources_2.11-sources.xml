@@ -7,7 +7,7 @@
 		revision="3.4-SNAPSHOT"
 		conf="sources"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180104175504"/>
+		date="20180112104830"/>
 	<dependencies>
 	</dependencies>
 </ivy-report>

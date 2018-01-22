@@ -4,7 +4,7 @@
 		module="pra$sources_2.11"
 		revision="3.4-SNAPSHOT"
 		status="integration"
-		publication="20180104175504"
+		publication="20180112104829"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

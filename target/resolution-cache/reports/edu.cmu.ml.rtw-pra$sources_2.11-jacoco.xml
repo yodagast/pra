@@ -7,7 +7,7 @@
 		revision="3.4-SNAPSHOT"
 		conf="jacoco"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180104175504"/>
+		date="20180112104830"/>
 	<dependencies>
 		<module organisation="org.jacoco" name="org.jacoco.agent">
 			<revision name="0.7.1.201405082137" status="release" pubdate="20140509195326" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="78">
@@ -778,11 +778,11 @@
 				<metadata-artifact status="no" details="" size="3150" time="0" location="/home/shell/.ivy2/cache/org.scalanlp/breeze-macros_2.11/ivy-0.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1.pom"/>
 				<caller organisation="edu.cmu.ml.rtw" name="pra$sources_2.11" conf="test, compile, jacoco, runtime" rev="0.3.1" rev-constraint-default="0.3.1" rev-constraint-dynamic="0.3.1" callerrev="3.4-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="no" details="" size="138843" time="0" location="/home/shell/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.3.1.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1.jar"/>
-					</artifact>
 					<artifact name="breeze-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5549" time="0" location="/home/shell/.ivy2/cache/org.scalanlp/breeze-macros_2.11/srcs/breeze-macros_2.11-0.3.1-sources.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1-sources.jar"/>
+					</artifact>
+					<artifact name="breeze-macros_2.11" type="jar" ext="jar" status="no" details="" size="138843" time="0" location="/home/shell/.ivy2/cache/org.scalanlp/breeze-macros_2.11/jars/breeze-macros_2.11-0.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalanlp/breeze-macros_2.11/0.3.1/breeze-macros_2.11-0.3.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

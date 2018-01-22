@@ -7,7 +7,7 @@
 		revision="3.4-SNAPSHOT"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180104175504"/>
+		date="20180112104830"/>
 	<dependencies>
 		<module organisation="org.graphchi" name="graphchi-java_2.11">
 			<revision name="0.2.2" status="release" pubdate="20150108061259" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/GraphChi/graphchi-java" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">

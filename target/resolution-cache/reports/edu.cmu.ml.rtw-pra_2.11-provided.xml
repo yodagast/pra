@@ -7,7 +7,7 @@
 		revision="3.4-SNAPSHOT"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco"
-		date="20180104175459"/>
+		date="20180112102631"/>
 	<dependencies>
 		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.11">
 			<revision name="1.0.1" status="release" pubdate="20141128183352" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">

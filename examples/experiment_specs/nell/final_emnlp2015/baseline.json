@@ -1,6 +1,6 @@
 load new_feature_experiment_base
 {
-  "split": "yagoSplit",
+  "split": "splits",
   "operation": {
     "type": "train and test",
     "features": {
