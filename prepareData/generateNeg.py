@@ -6,7 +6,7 @@ base=sys.argv[1]
 print(base)
 dir=base+"/splits/yagoSplit/"
 rel_dir=base+"/relation/"
-def geneNegPair(train_df,all_df,relation,negRate=4,onlyTailer=False,isTrain=False):
+def geneNegPair(train_df,all_df,relation,negRate=8,onlyTailer=False,isTrain=False):
     if(train_df.shape[0]<20 or all_df.shape[0]<20):
         return;
     splits_relation_path=os.path.join(os.path.abspath(dir),relation)

@@ -101,8 +101,6 @@ class TrainAndTest[T <: Instance](
     // Then we test the model.
     val testingData = split.getTestingData(relation, graph)
     val testMatrix = generator.createTestMatrix(relation,testingData)
-
-    /*
     var max=0
     for(i<- 0 until  trainingMatrix.size()){
       val mr=trainingMatrix.getRow(i)
@@ -111,11 +109,12 @@ class TrainAndTest[T <: Instance](
       }
     }
     val attr=new AttributeFile
-    */
+
+
     outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
 
     // Then we train a model.
-    /*
+
    val trainingMatrix1=attr.mergeMatrix(attr.loadSparseMatrix(relation,true,max+1),trainingMatrix)
    val literalFeatures=attr.loadLiteralDict("literalDict.txt").asScala
    val literalF=literalFeatures.map(x=>x+"tmp")
@@ -123,7 +122,6 @@ class TrainAndTest[T <: Instance](
    val featureNames1=featureNames ++ literalFeatures ++ literalF ++ tmpFeature
    model.train(trainingMatrix1, trainingData, featureNames1)
    val testMatrix1= attr.mergeMatrix(attr.loadSparseMatrix(relation,false,max+1),testMatrix)
-  */
    //val baseDir="/home/kdeapp/KBCompletion/Data/matrix_sfe/";
    //AttributeFile.makeDir(baseDir+relation)
     //AttributeFile.writePathTypes(relation,"trainPathTypes.txt",featureNames,trainingMatrix)

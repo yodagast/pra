@@ -17,8 +17,8 @@ import java.util.regex.Pattern;
  */
 
 public class AttributeFile {
-    public static final String baseDir="/home/kdeapp/KBCompletion/Data/matrix_sfe/";
-    public static final String baseDir1="/home/kdeapp/KBCompletion/Data/";
+    public static final String baseDir="/home/kdeapp/KBCompletion/code/pra/yago/matrix/";
+    public static final String baseDir1="/home/kdeapp/KBCompletion/code/pra/yago/";
     public static void makeDir(String s){
         File f=new File(s);
         if(!f.exists() ){
