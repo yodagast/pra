@@ -96,44 +96,48 @@ class TrainAndTest[T <: Instance](
     val trainingMatrix = generator.createTrainingMatrix(relation,trainingData)
     val model = BatchModel.create(params \ "learning", split, outputter)
     val featureNames = generator.getFeatureNames()
-    model.train(trainingMatrix, trainingData, featureNames)
+    //model.train(trainingMatrix, trainingData, featureNames)
 
     // Then we test the model.
     val testingData = split.getTestingData(relation, graph)
     val testMatrix = generator.createTestMatrix(relation,testingData)
-    var max=0
-    for(i<- 0 until  trainingMatrix.size()){
-      val mr=trainingMatrix.getRow(i)
-      if(max<mr.featureTypes.toList.max) {
-        max = mr.featureTypes.toList.max
+    val useLiteral=false//true
+    //val splitName=JsonHelper.extractWithDefault(params,"split","yagoSplit")
+    val attrFile="fbattr.txt"//if(splitName.equals("fbSplit")) "fbattr.txt" else "yagoattr.txt"
+    if(useLiteral) {
+      var max = 0
+      for (i <- 0 until trainingMatrix.size()) {
+        val mr = trainingMatrix.getRow(i)
+        if (max < mr.featureTypes.toList.max) {
+          max = mr.featureTypes.toList.max
+        }
       }
+      val attr = new AttributeFile
+      val literalFeatures = attr.loadLiteralFeatureList("attr2id.txt").asScala
+      val literalF = literalFeatures.map { x: String => s"${x}tmp" }
+      val tmpFeature: Array[String] = Array("f1", "f2", "f3", "f4", "f5", "f6");
+      val featureNames1 = featureNames ++ literalFeatures ++ literalF ++ tmpFeature
+
+      val literalMap = attr.loadTripleLiteral(attrFile)
+      val literalTrain = attr.getSparseMatrix(trainingData.instancesToStrings().asJava, max + 10, literalMap, literalFeatures.asJava)
+      val literalTest = attr.getSparseMatrix(testingData.instancesToStrings().asJava, max + 10, literalMap, literalFeatures.asJava)
+
+      val trainMatrix1 = attr.mergeMatrix(literalTrain, trainingMatrix)
+      val testMatrix1 = attr.mergeMatrix(literalTest, testMatrix)
+      // Then we train a model.
+      //outputter.outputFeatureMatrix(true, trainingMatrix1, generator.getFeatureNames())
+      outputter.outputFeatureMatrix(true, trainMatrix1, featureNames1)
+      model.train(trainMatrix1, trainingData, featureNames1)
+
+      //outputter.outputFeatureMatrix(false, testMatrix, featureNames)
+      val scores = model.classifyInstances(testMatrix1)
+      outputter.outputScores(scores, trainingData)
+    }else{
+      outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
+      model.train(trainingMatrix, trainingData, generator.getFeatureNames())
+      val scores = model.classifyInstances(testMatrix)
+      outputter.outputScores(scores, trainingData)
     }
-    val attr=new AttributeFile
-
-
-    outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
-
-    // Then we train a model.
-
-   val trainingMatrix1=attr.mergeMatrix(attr.loadSparseMatrix(relation,true,max+1),trainingMatrix)
-   val literalFeatures=attr.loadLiteralDict("literalDict.txt").asScala
-   val literalF=literalFeatures.map(x=>x+"tmp")
-   val tmpFeature:Array[String]=Array("f1","f2","f3","f4","f5","f6");
-   val featureNames1=featureNames ++ literalFeatures ++ literalF ++ tmpFeature
-   model.train(trainingMatrix1, trainingData, featureNames1)
-   val testMatrix1= attr.mergeMatrix(attr.loadSparseMatrix(relation,false,max+1),testMatrix)
-   //val baseDir="/home/kdeapp/KBCompletion/Data/matrix_sfe/";
-   //AttributeFile.makeDir(baseDir+relation)
-    //AttributeFile.writePathTypes(relation,"trainPathTypes.txt",featureNames,trainingMatrix)
-    //AttributeFile.writePathTypes(relation,"testLPathTypes.txt",featureNames,testMatrix)
-   //AttributeFile.writelibsvm(relation,"trainLibsvm.txt",featureNames,trainingMatrix)
-   //AttributeFile.writelibsvm(relation,"testLibsvm.txt",featureNames,testMatrix);
-   //write features to features.csv
-    // AttributeFile.writeAlphabet(relation,featureNames)
-
-    //outputter.outputFeatureMatrix(false, testMatrix, featureNames)
-    val scores = model.classifyInstances(testMatrix)
-    outputter.outputScores(scores, trainingData)
   }
 }
 

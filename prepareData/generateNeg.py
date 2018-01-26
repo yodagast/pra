@@ -4,9 +4,12 @@ import numpy as np
 np.random.seed(1)
 base=sys.argv[1]
 print(base)
-dir=base+"/splits/yagoSplit/"
+if("fb" in base):
+    dir=base+"/splits/fbSplit/"
+else:
+    dir=base+"/splits/yagoSplit/"
 rel_dir=base+"/relation/"
-def geneNegPair(train_df,all_df,relation,negRate=8,onlyTailer=False,isTrain=False):
+def geneNegPair(train_df,all_df,relation,negRate=4,onlyTailer=False,isTrain=False):
     if(train_df.shape[0]<20 or all_df.shape[0]<20):
         return;
     splits_relation_path=os.path.join(os.path.abspath(dir),relation)
@@ -65,7 +68,7 @@ for relation in os.listdir(os.path.abspath(rel_dir)):
     if(os.path.exists(abs_relation_path+"/all.tsv")):
         all=pd.read_csv(abs_relation_path+"/all.tsv",header=-1,sep='\t',names=['source','target'])
     p1=mp.Process(target=geneNegPair, args = (train,all,relation),kwargs={"isTrain":True})
-    p2=mp.Process(target=geneNegPair, args = (train,all,relation),kwargs={"isTrain":False})
+    p2=mp.Process(target=geneNegPair, args = (test,all,relation),kwargs={"isTrain":False})
     #pool.apply_async(geneNegPair, args = (train,all,relation,),kwargs={"isTrain":True})
     #pool.apply_async(geneNegPair, args = (train,all,relation,),kwargs={"isTrain":False})
     #geneNegPair(train,all,relation,isTrain=True)

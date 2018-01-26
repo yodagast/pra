@@ -2,13 +2,17 @@ package edu.cmu.ml.rtw.pra.features;
 
 import cc.mallet.types.Alphabet;
 import cc.mallet.types.FeatureVector;
+import edu.cmu.ml.rtw.pra.data.Dataset;
 import edu.cmu.ml.rtw.pra.data.Instance;
+import org.apache.commons.lang.ArrayUtils;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -17,8 +21,8 @@ import java.util.regex.Pattern;
  */
 
 public class AttributeFile {
-    public static final String baseDir="/home/kdeapp/KBCompletion/code/pra/yago/matrix/";
-    public static final String baseDir1="/home/kdeapp/KBCompletion/code/pra/yago/";
+    public static String baseDir="/home/kdeapp/KBCompletion/code/pra/fb15k/matrix/";
+    public static String baseDir1="/home/kdeapp/KBCompletion/code/pra/fb15k/"; //literal Folder
     public static void makeDir(String s){
         File f=new File(s);
         if(!f.exists() ){
@@ -26,26 +30,34 @@ public class AttributeFile {
         }
     }
 
-    public  List<String> loadLiteralDict(String fileName) throws  IOException{
+    public HashMap<String, Double> loadTripleLiteral(String fileName) throws IOException {
+        HashMap<String, Double> hm = new HashMap<String, Double>();
+        FileReader fr2 = new FileReader(baseDir1 + fileName);
+        BufferedReader br2 = new BufferedReader(fr2);
+        String str = "";
+        while ((str = br2.readLine()) != null) {
+            String[] s = str.split("\t");
+            if (s.length < 6)
+                continue;
+            String key = s[3].trim().toLowerCase().replaceAll("[^a-z]", "")
+                    + s[4].trim().toLowerCase().replaceAll("[^a-z]", "");
+            hm.put(key, Double.parseDouble(s[5].trim()));
+        }
+        br2.close();
+        fr2.close();
+        return hm;
+    }
+    public List<String> loadLiteralFeatureList(String fileName) throws  IOException{
         FileReader fileReader=new FileReader(baseDir1+fileName);
         BufferedReader dict=new BufferedReader(fileReader);
         String str="";
         List<String> arrayList=new ArrayList<>();
         while ((str=dict.readLine())!=null){
-            arrayList.add(str);
+            arrayList.add(str.replaceAll("\\s+\\d+","").trim());
         }
         return arrayList;
     }
-    public  List<String> loadLiteralDict(String fileName,String tmp) throws  IOException{
-        FileReader fileReader=new FileReader(baseDir1+fileName);
-        BufferedReader dict=new BufferedReader(fileReader);
-        String str="";
-        List<String> arrayList=new ArrayList<>();
-        while ((str=dict.readLine())!=null){
-            arrayList.add(str+tmp);
-        }
-        return arrayList;
-    }
+
 
     public  ArrayList<SparseMatrixRow> loadDense2SparseMatrix(String relation,boolean isTraining,int max) throws  IOException{
         if(isTraining) {
@@ -268,6 +280,49 @@ public class AttributeFile {
     }
     //解析head-tail 三元组和三元组中的literalfacts
     //在literal-fact中添加新的属性
+    public ArrayList<SparseMatrixRow> getSparseMatrix(List<String> trainingData,int max,HashMap<String, Double> literalMap,List<String> literalFeatures){
+        ArrayList<SparseMatrixRow> sparseMatrixRows=new ArrayList<>();
+        for(int i=0;i<trainingData.size();i++){
+            String[] res=trainingData.get(i).split("\t");
+            sparseMatrixRows.add(getSparseMatrixRow(res[0].trim(),res[1].trim(),max,literalMap, literalFeatures));
+        }
+        return sparseMatrixRows;
+    }
+    public SparseMatrixRow getSparseMatrixRow(String source,String target,int max,HashMap<String, Double> literalMap,List<String> literalFeatures){
+        ArrayList<Integer> indice=new ArrayList<>();
+        ArrayList<Double> values=new ArrayList<>();
+        int size=literalFeatures.size();
+        int tmp=max;
+        for(int i=0;i<size;i++){
+            String feature=literalFeatures.get(i).toLowerCase().trim();
+            String skey=source.trim().toLowerCase().replaceAll("[^a-z]", "")+feature;
+            if(literalMap.containsKey(skey)){
+                indice.add(new Integer(max));
+                values.add(literalMap.get(skey));
+                max++;
+            }
+        }
+        for(int i=0;i<size;i++){
+            String feature=literalFeatures.get(i);
+            String tkey=target.trim().toLowerCase().replaceAll("[^a-z]", "")+feature;
+            if(literalMap.containsKey(tkey)){
+                indice.add(max);
+                values.add(literalMap.get(tkey));
+                max++;
+            }
+        }
+        //if(max>tmp) System.out.println("add literal Succeed!!!!!!!!!");
+        Integer[] idx=indice.stream().toArray(Integer[]::new);
+        Double[] val=values.stream().toArray(Double[]::new);
+        return new SparseMatrixRow(ArrayUtils.toPrimitive(idx),ArrayUtils.toPrimitive(val));
+    }
+    public static double getDouble(String str){
+        try {
+            return  Double.parseDouble(str);
+        }finally {
+            return 0;
+        }
+    }
 
     public  ArrayList<SparseMatrixRow> loadSparseMatrixRows(String fileName,int max) throws IOException{
         String str="";
@@ -384,12 +439,13 @@ public class AttributeFile {
     }
     public static void writeAlphabet(String relation,String[] array) throws IOException {
         String dir=baseDir+relation;
-        FileWriter fw=new FileWriter(new File(dir+"/features.csv"));
+        FileWriter fw=new FileWriter(new File(dir+"/features.tsv"));
         for(int i=0;i<array.length;i++)
             fw.write(array[i]+"\n");
         fw.flush();
         fw.close();
     }
+    /*
     public static void writeNodePairInstance(String relation,String trainOrTest,Instance instance) throws IOException {
         String dir=baseDir+relation;
         makeDir(dir);
@@ -398,6 +454,7 @@ public class AttributeFile {
         fw.flush();
         fw.close();
     }
+    */
 }
 
 

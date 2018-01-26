@@ -5,13 +5,23 @@ cd $pwd;
 rm -rf $pwd/relation
 rm -rf $pwd/splits
 rm -rf $pwd/graphs
-sed -i 's/[\r\s \t]*$//g' fbtrain.txt
-sed -i 's/[ \t\r\s]*$//g' fbvalid.txt
-sed -i 's/[ \t\r\s]*$//g' fbtest.txt
-sed -i 's/[ \t\r\s]*$//g' relation2id.txt
-sed -i 's/[ \t\r\s]*$//g' entity2id.txt
-sed -i 's/[ \t\r\s]*$//g' fbtriple.txt
-sed -i 's/[ \t\r\s]*$//g' fbattr.txt
+rm train.txt
+rm test.txt
+rm valid.txt
+sed -i 's/[ \t]*$//g' fbtrain.txt
+sed -i 's/[ \t]*$//g' fbvalid.txt
+sed -i 's/[ \t]*$//g' fbtest.txt
+sed -i 's/[ \t]*$//g' relation2id.txt
+sed -i 's/[ \t]*$//g' entity2id.txt
+sed -i 's/[ \t]*$//g' fbtriple.txt
+sed -i 's/[ \t]*$//g' fbattr.txt
+sed -i 's/\//_/g' fbtrain.txt
+sed -i 's/\//_/g' fbvalid.txt
+sed -i 's/\//_/g' fbtest.txt
+sed -i 's/\//_/g' relation2id.txt
+sed -i 's/\//_/g' entity2id.txt
+sed -i 's/\//_/g' fbtriple.txt
+sed -i 's/\//_/g' fbattr.txt
 
 sed -i 's/\.//g' fbtrain.txt
 sed -i 's/\.//g' fbvalid.txt
@@ -20,14 +30,6 @@ sed -i 's/\.//g' relation2id.txt
 sed -i 's/\.//g' entity2id.txt
 sed -i 's/\.//g' fbtriple.txt
 sed -i 's/\.//g' fbattr.txt
-
-sed -i 's/\//_/g' fbtrain.txt
-sed -i 's/\//_/g' fbvalid.txt
-sed -i 's/\//_/g' fbtest.txt
-sed -i 's/\//_/g' relation2id.txt
-sed -i 's/\//_/g' entity2id.txt
-sed -i 's/\//_/g' fbtriple.txt
-sed -i 's/\//_/g' fbattr.txt
 
 if [ ! -d "$pwd/relation" ]; then
   mkdir relation
@@ -44,30 +46,31 @@ if [ ! -d "$pwd/graphs" ]; then
 fi
 awk -F'\t' '{print $2"\t"$1}' ./relation2id.txt >./graphs/nell/kb_svo/edge_dict.tsv
 awk -F'\t' '{print $2"\t"$1}' ./entity2id.txt >./graphs/nell/kb_svo/node_dict.tsv
-printf "1\\n2\\n3\\n4\\n5"> ./graphs/nell/kb_svo/num_shards.tsv
-awk -F'\t' '{print $1"\t"$2"\t"$3}' ./fbtriple.txt >./graphs/nell/kb_svo/graph_chi/edges.tsv
-awk -F'\t' '{print $6}' ./fbtriple.txt|sort|uniq -c|sort -k 1 -nr |head -45|awk '{print $NF}'>./splits/fbSplit/relations_to_run.tsv
-sed -i 's/[ \t\r\s]*$//g' ./splits/fbSplit/relations_to_run.tsv
-
+printf "1\\n2\\n3\\n4\\n5\\n6\\n7"> ./graphs/nell/kb_svo/num_shards.tsv
+#awk -F'\t' '{print $1"\t"$2"\t"$3}' ./fbtriple.txt >./graphs/nell/kb_svo/graph_chi/edges.tsv
+#awk -F'\t' '{print $6}' ./fbtriple.txt|sort|uniq -c|sort -k 1 -nr |head -45|awk '{print $NF}'>./splits/fbSplit/relations_to_run.tsv
+#sed -i 's/[ \t\r\s]*$//g' ./splits/fbSplit/relations_to_run.tsv
+cp ./relations_to_run.tsv ./splits/fbSplit/relations_to_run.tsv
 while read line
 do
+      echo $line
       mkdir ./relation/$line
       mkdir ./splits/fbSplit/$line
 done < ./splits/fbSplit/relations_to_run.tsv
 
 while read line
 do
-    sed -n '/'$line'/p' fbtrain.txt>>train.txt
-    sed -n '/'$line'/p' fbvalid.txt>>valid.txt
-    sed -n '/'$line'/p' fbtest.txt>>test.txt
+    sed -n '/'$line'$/p' fbtrain.txt>>train.txt
+    sed -n '/'$line'$/p' fbvalid.txt>>valid.txt
+    sed -n '/'$line'$/p' fbtest.txt>>test.txt
 done < ./splits/fbSplit/relations_to_run.tsv
 
 
 while read line
 do
-    sed -n '/'$line'/p' train.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
-    sed -n '/'$line'/p' valid.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
-    sed -n '/'$line'/p' test.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
+    sed -n '/'$line'$/p' train.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
+    sed -n '/'$line'$/p' valid.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
+    sed -n '/'$line'$/p' test.txt>>./graphs/nell/kb_svo/graph_chi/edges1.tsv
 done < ./splits/fbSplit/relations_to_run.tsv
 awk -F'\t' '{print $1"\t"$2"\t"$3}' ./graphs/nell/kb_svo/graph_chi/edges1.tsv >./graphs/nell/kb_svo/graph_chi/edges.tsv
 

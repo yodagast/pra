@@ -109,8 +109,8 @@ abstract class SubgraphFeatureGenerator[T <: Instance](
   def extractFeatures(instance: T, subgraph: Subgraph): Option[MatrixRow] = {
     val features = featureExtractors.flatMap(_.extractFeatures(instance, subgraph))
     if (features.size > 0) {
-      if(isTraining) AttributeFile.writeNodePairInstance(relationName,"trainNodePair.csv",instance)
-     else AttributeFile.writeNodePairInstance(relationName,"testNodePair.csv",instance)
+      //if(isTraining) AttributeFile.writeNodePairInstance(relationName,"trainNodePair.csv",instance)
+       //else AttributeFile.writeNodePairInstance(relationName,"testNodePair.csv",instance)
       Some(createMatrixRow(instance, features.toSet.map(featureToIndex).toSeq.sorted))
     } else {
       None
