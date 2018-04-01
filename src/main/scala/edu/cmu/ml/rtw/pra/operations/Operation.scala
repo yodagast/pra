@@ -102,8 +102,9 @@ class TrainAndTest[T <: Instance](
     val testingData = split.getTestingData(relation, graph)
     val testMatrix = generator.createTestMatrix(relation,testingData)
     val useLiteral=false//true
+    val attr = new AttributeFile
     //val splitName=JsonHelper.extractWithDefault(params,"split","yagoSplit")
-    val attrFile="fbattr.txt"//if(splitName.equals("fbSplit")) "fbattr.txt" else "yagoattr.txt"
+    val attrFile="yagoattr.txt"//if(splitName.equals("fbSplit")) "fbattr.txt" else "yagoattr.txt"
     if(useLiteral) {
       var max = 0
       for (i <- 0 until trainingMatrix.size()) {
@@ -112,7 +113,6 @@ class TrainAndTest[T <: Instance](
           max = mr.featureTypes.toList.max
         }
       }
-      val attr = new AttributeFile
       val literalFeatures = attr.loadLiteralFeatureList("attr2id.txt").asScala
       val literalF = literalFeatures.map { x: String => s"${x}tmp" }
       val tmpFeature: Array[String] = Array("f1", "f2", "f3", "f4", "f5", "f6");
@@ -128,6 +128,8 @@ class TrainAndTest[T <: Instance](
       //outputter.outputFeatureMatrix(true, trainingMatrix1, generator.getFeatureNames())
       outputter.outputFeatureMatrix(true, trainMatrix1, featureNames1)
       model.train(trainMatrix1, trainingData, featureNames1)
+      attr.writelibsvm(relation,true,generator.getFeatureNames(),trainingMatrix)
+      attr.writelibsvm(relation,false,generator.getFeatureNames(),testMatrix)
 
       //outputter.outputFeatureMatrix(false, testMatrix, featureNames)
       val scores = model.classifyInstances(testMatrix1)
@@ -136,6 +138,8 @@ class TrainAndTest[T <: Instance](
       outputter.outputFeatureMatrix(true, trainingMatrix, generator.getFeatureNames())
       model.train(trainingMatrix, trainingData, generator.getFeatureNames())
       val scores = model.classifyInstances(testMatrix)
+      attr.writelibsvm(relation,true,generator.getFeatureNames(),trainingMatrix)
+      attr.writelibsvm(relation,false,generator.getFeatureNames(),testMatrix)
       outputter.outputScores(scores, trainingData)
     }
   }

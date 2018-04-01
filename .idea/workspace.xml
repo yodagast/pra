@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b83df5e6-a6c9-4369-8a7b-378588137f2d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java" afterPath="$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala" afterPath="$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py" afterPath="$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py" />
     </list>
     <ignored path="$PROJECT_DIR$/target/resolution-cache/" />
     <ignored path="$PROJECT_DIR$/target/streams/" />
@@ -66,31 +65,113 @@
       <file leaf-file-name="Operation.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1896">
-              <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="24" />
+            <state relative-caret-position="-1368">
+              <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
               <folding>
-                <element signature="e#6026#9364#0" expanded="false" />
+                <element signature="e#6344#9682#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sfe_bfs_pra_anyrel.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fb15k/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra_anyrel.json">
+      <file leaf-file-name="AttributeFile.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+              <folding>
+                <element signature="method#loadDense2SparseMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#loadDenseMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#loadDenseMatrixRows#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#convertDnese2SparseMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#addFeatureInDenseMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#maxMinMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#maxNum#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#minNum#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#dateSubtraction#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#convertMatrix2ArrayList#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#loadSparseMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#mergeMatrix#0;class#AttributeFile#0" expanded="false" />
+                <element signature="method#writePathTypes#0;class#AttributeFile#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sync.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sync.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BfsPathFinder.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/features/BfsPathFinder.scala">
+      <file leaf-file-name="praRegreesion.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="73" />
+            <state relative-caret-position="352">
+              <caret line="166" column="71" lean-forward="false" selection-start-line="166" selection-start-column="61" selection-end-line="166" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#1768#3119#0" expanded="false" />
+                <element signature="e#3966#5580#0" expanded="false" />
+                <element signature="e#4427#5251#1" expanded="false" />
+                <element signature="e#5647#6542#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dense.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sympy/matrices/dense.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="8" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1552">
+              <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base_module.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/module/base_module.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2305">
+              <caret line="265" column="20" lean-forward="false" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sparse.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/sparse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="381">
+              <caret line="274" column="16" lean-forward="false" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deepRegresssion.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/syncPra/praL2R/deepRegresssion.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,6 +194,7 @@
       <find>FeatureMatrix</find>
       <find>writeNodePairInstance</find>
       <find>getSparseMatrix</find>
+      <find>write</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/prepareData</dir>
@@ -141,7 +223,6 @@
         <option value="$PROJECT_DIR$/prepareData/genrateNeg.py" />
         <option value="$PROJECT_DIR$/examples/experiment_specs/nell/final_emnlp2015/baseline.json" />
         <option value="$PROJECT_DIR$/syncPra/praResultStat/praStat.py" />
-        <option value="$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py" />
         <option value="$PROJECT_DIR$/prepareData/preFK15K.sh" />
         <option value="$PROJECT_DIR$/prepareData/getSplitsFB15K.py" />
         <option value="$PROJECT_DIR$/prepareData/posFB15K.sh" />
@@ -162,11 +243,12 @@
         <option value="$PROJECT_DIR$/yago/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra_anyrel.json" />
         <option value="$PROJECT_DIR$/fb15k/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra.json" />
         <option value="$PROJECT_DIR$/fb15k/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra_literal.json" />
-        <option value="$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java" />
         <option value="$PROJECT_DIR$/prepareData/test.py" />
         <option value="$PROJECT_DIR$/prepareData/rmrelatedRelations.py" />
         <option value="$PROJECT_DIR$/fb15k/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra_anyrel.json" />
+        <option value="$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java" />
+        <option value="$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py" />
       </list>
     </option>
   </component>
@@ -183,9 +265,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="1717" />
-    <option name="height" value="983" />
+    <option name="y" value="26" />
+    <option name="width" value="1920" />
+    <option name="height" value="1174" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -219,38 +301,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="fb15k" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="fb15k" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment_specs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="fb15k" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment_specs" type="462c0819:PsiDirectoryNode" />
-              <item name="nell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="fb15k" type="462c0819:PsiDirectoryNode" />
-              <item name="experiment_specs" type="462c0819:PsiDirectoryNode" />
-              <item name="nell" type="462c0819:PsiDirectoryNode" />
-              <item name="final_emnlp2015" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
@@ -273,14 +332,14 @@
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,62 +347,49 @@
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="edu" type="462c0819:PsiDirectoryNode" />
-              <item name="cmu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cmu" type="462c0819:PsiDirectoryNode" />
-              <item name="ml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cmu" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
-              <item name="rtw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cmu" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
               <item name="rtw" type="462c0819:PsiDirectoryNode" />
-              <item name="pra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cmu" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
               <item name="rtw" type="462c0819:PsiDirectoryNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
-              <item name="experiments" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pra" type="b2602c69:ProjectViewProjectNode" />
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="edu" type="462c0819:PsiDirectoryNode" />
               <item name="cmu" type="462c0819:PsiDirectoryNode" />
               <item name="ml" type="462c0819:PsiDirectoryNode" />
@@ -351,14 +397,35 @@
               <item name="pra" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pra" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="cmu" type="462c0819:PsiDirectoryNode" />
+              <item name="ml" type="462c0819:PsiDirectoryNode" />
+              <item name="rtw" type="462c0819:PsiDirectoryNode" />
+              <item name="pra" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pra" type="462c0819:PsiDirectoryNode" />
+              <item name="syncPra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pra" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pra" type="462c0819:PsiDirectoryNode" />
+              <item name="syncPra" type="462c0819:PsiDirectoryNode" />
+              <item name="praL2R" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -791,12 +858,16 @@
       <workItem from="1516880401739" duration="6569000" />
       <workItem from="1516936265804" duration="9590000" />
       <workItem from="1517212352158" duration="959000" />
-      <workItem from="1519822147875" duration="142000" />
+      <workItem from="1519822147875" duration="957000" />
+      <workItem from="1520769149140" duration="1503000" />
+      <workItem from="1522151839350" duration="5730000" />
+      <workItem from="1522205264436" duration="4343000" />
+      <workItem from="1522481537517" duration="11358000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121084000" />
+    <option name="totallyTimeSpent" value="144833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -808,7 +879,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1054" extended-state="6" />
+    <frame x="0" y="26" width="1920" height="1174" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -817,13 +888,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34383687" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28266913" sideWeight="0.5064034" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295238" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28266913" sideWeight="0.49359658" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295099" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23745997" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24813233" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="sbt-shell-toolwindow" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24332978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -831,15 +903,14 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939035" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32808155" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -898,77 +969,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/syncPra/praL2R/TransE.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareData/mkGraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/syncPra/praResultStat/praStat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareData/mkGraph1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareData/getSplitsFB15K.py" />
-    <entry file="file://$PROJECT_DIR$/prepareData/posKB2E.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra_anyrel.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prepareData/preKB.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="11" lean-forward="false" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/.AttributeFile.java.swp" />
-    <entry file="file://$PROJECT_DIR$/examples/experiment_specs/nell/final_emnlp2015/sfe_bfs_pra.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/LiteralSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/Literal2Matrix.java" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/data/Split.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="30" column="82" lean-forward="true" selection-start-line="30" selection-start-column="82" selection-end-line="30" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/experiments/Outputter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="248" column="56" lean-forward="false" selection-start-line="248" selection-start-column="41" selection-end-line="248" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1078,13 +1082,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sync.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.json4s/json4s-core_2.11/srcs/json4s-core_2.11-3.2.11-sources.jar!/org/json4s/ExtractableJsonAstNode.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
@@ -1184,27 +1181,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="23" column="74" lean-forward="false" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1896">
-          <caret line="103" column="24" lean-forward="false" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="24" />
-          <folding>
-            <element signature="e#6026#9364#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/experiments/ExperimentScorer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/features/BfsPathFinder.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncPra/codeSyncPython.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/experiments/ExperimentRunner.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncPra/praL2R/libsvmSpliter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/experiments/Outputter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="107" column="18" lean-forward="false" selection-start-line="107" selection-start-column="10" selection-end-line="107" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2017.2/system/python_stubs/1658192267/sklearn/tree/_splitter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="183" column="12" lean-forward="false" selection-start-line="183" selection-start-column="12" selection-end-line="183" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sklearn/datasets/svmlight_format.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4320">
+          <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="12" selection-end-line="193" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1216,11 +1248,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/features/BfsPathFinder.scala">
+    <entry file="file://$PROJECT_DIR$/syncPra/praL2R/deepRegresssion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="36" column="62" lean-forward="false" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="73" />
+        <state relative-caret-position="192">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/edu/cmu/ml/rtw/pra/operations/Operation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1368">
+          <caret line="107" column="20" lean-forward="false" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
+          <folding>
+            <element signature="e#6344#9682#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="629" column="64" lean-forward="false" selection-start-line="629" selection-start-column="61" selection-end-line="629" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/ndarray/sparse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="274" column="16" lean-forward="false" selection-start-line="274" selection-start-column="16" selection-end-line="274" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/cmu/ml/rtw/pra/features/AttributeFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="80" lean-forward="false" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
+          <folding>
+            <element signature="method#loadDense2SparseMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#loadDenseMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#loadDenseMatrixRows#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#convertDnese2SparseMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#addFeatureInDenseMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#maxMinMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#maxNum#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#minNum#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#dateSubtraction#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#convertMatrix2ArrayList#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#loadSparseMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#mergeMatrix#0;class#AttributeFile#0" expanded="false" />
+            <element signature="method#writePathTypes#0;class#AttributeFile#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/scipy/sparse/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1552">
+          <caret line="105" column="8" lean-forward="false" selection-start-line="105" selection-start-column="8" selection-end-line="105" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/sympy/matrices/dense.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/mxnet/module/base_module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2305">
+          <caret line="265" column="20" lean-forward="false" selection-start-line="265" selection-start-column="8" selection-end-line="265" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sync.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/syncPra/praL2R/praRegreesion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="166" column="71" lean-forward="false" selection-start-line="166" selection-start-column="61" selection-end-line="166" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1768#3119#0" expanded="false" />
+            <element signature="e#3966#5580#0" expanded="false" />
+            <element signature="e#4427#5251#1" expanded="false" />
+            <element signature="e#5647#6542#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

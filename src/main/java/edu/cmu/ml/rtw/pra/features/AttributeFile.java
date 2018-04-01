@@ -21,8 +21,8 @@ import java.util.regex.Pattern;
  */
 
 public class AttributeFile {
-    public static String baseDir="/home/kdeapp/KBCompletion/code/pra/fb15k/matrix/";
-    public static String baseDir1="/home/kdeapp/KBCompletion/code/pra/fb15k/"; //literal Folder
+    public static String baseDir="/home/kdeapp/KBCompletion/code/pra/yago/matrix/";
+    public static String baseDir1="/home/kdeapp/KBCompletion/code/pra/yago/"; //literal Folder
     public static void makeDir(String s){
         File f=new File(s);
         if(!f.exists() ){
@@ -358,10 +358,26 @@ public class AttributeFile {
         return sparseMatrixRows;
     }
 
-    public static void writelibsvm(String relation, String trainOrTest,String[] featureTypes,FeatureMatrix featureMatrix) throws IOException {
+    /**
+     * write libsvm and node pair instance
+     * @param relation
+     * @param isTraining
+     * @param featureTypes
+     * @param featureMatrix
+     * @throws IOException
+     */
+    public void writelibsvm(String relation, boolean isTraining,String[] featureTypes,FeatureMatrix featureMatrix) throws IOException {
         String dir=baseDir+relation;
-        //makeDir(dir);
-        FileWriter fw=new FileWriter(new File(dir+"/"+trainOrTest));
+         makeDir(dir);
+        FileWriter fwPair;
+        FileWriter fw;
+        if(isTraining) {
+            fwPair= new FileWriter(new File(dir + "/trainPair.tsv" ));
+            fw= new FileWriter(new File(dir + "/train.tsv" ));
+        }else {
+            fwPair= new FileWriter(new File(dir + "/testPair.tsv" ));
+            fw= new FileWriter(new File(dir + "/test.tsv" ));
+        }
         int n=featureMatrix.size();
         int max=-1;
 
@@ -375,10 +391,11 @@ public class AttributeFile {
             MatrixRow mr=featureMatrix.getRow(i);
             FeatureVector feature_vector = new FeatureVector(alphabet, mr.featureTypes, mr.values);
             if(mr.instance.isPositive()) {
-                fw.write(mr.instance.toString()+"\t1 ");
+                fwPair.write(mr.instance.toString()+"\n");
+                fw.write("1 ");
             } else {
-               // fw.write(i+"\t"+n+"\t"+featureTypes.length + "\t" + 0.0 + ";");
-                fw.write(mr.instance.toString()+"\t-1 ");
+               fwPair.write(mr.instance.toString()+"\n");
+                fw.write("-1 ");
             }
             double[] num=feature_vector.getValues();
             //System.out.println("********************featureTypes has length :"+featureTypes.length);
@@ -389,6 +406,8 @@ public class AttributeFile {
             }
             fw.write("\n");
         }
+        fwPair.flush();
+        fwPair.close();
         fw.flush();
         fw.close();
     }
