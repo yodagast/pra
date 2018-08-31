@@ -5,4 +5,4 @@
 #cp /home/kde/KBCompletion/code/pra/examples/splits/relations_to_run.tsv /home/kde/KBCompletion/code/pra/examples/splits/yagoSplit/
 ## using in 212
 rm -rf ./examples/results/*
-sbt 'run /home/kdeapp/KBCompletion/code/pra/examples/ sfe_bfs_pra.json'
+sbt 'run /home/yhuang/java/pra/examples/ sfe_bfs_pra.json'
